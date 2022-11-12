@@ -11,13 +11,13 @@ $ perufetch
    .                                     ---------------------------------
   ##########==  =#                       Name: Teruki TADA
    ##===####==###==#==.                  Shell: Japanese
-   ##==####==##        ===               Location: Hakodate(Japan)
+   ##==####==##        ===               Location: Hakodate, Japan
     ########=             #=             Affiliation: Future University Hakodate
      ####=            ##   .#.           Mascot: Perukun
       #         ##    ##     #           Twitter: @PerukiFUN
       #         ##         .#=           GitHub: TadaTeruki
       =#               ====              Native Language: Go
-        =====.    ====                   Available Languages: C, C++, Rust
+        =====.    ====                   Trained Languages: C, C++, Go, (Rust)
        =#=#########.                     Fields: Procedural Generation (CG)
      #######=######=                           : Backend Web Development
         ===  #     =                     
