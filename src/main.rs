@@ -1,6 +1,7 @@
 use image::GenericImageView;
 
-const IMAGE_SOURCE: &str = "image/Peruki.png";
+const IMAGE_SOURCE: &str =
+    "https://github.com/TadaTeruki/perufetch/blob/main/image/Peruki.png?raw=true";
 
 const INFO: [&str; 16] = [
     "\x1b[1;33mPeruki@future-university-hakodate\x1b[0m",
@@ -21,8 +22,14 @@ const INFO: [&str; 16] = [
     "\x1b[90m███\x1b[91m███\x1b[92m███\x1b[93m███\x1b[94m███\x1b[95m███\x1b[96m███\x1b[97m███",
 ];
 
+fn get_image() -> Result<image::DynamicImage, Box<dyn std::error::Error>> {
+    let img_bytes = reqwest::blocking::get(IMAGE_SOURCE)?.bytes()?;
+    let img = image::load_from_memory(&img_bytes)?;
+    Ok(img)
+}
+
 fn main() {
-    let img = image::open(IMAGE_SOURCE).expect("image not found");
+    let img = get_image().expect("image not found.");
 
     let swidth = 45i32;
     let sheight = 18i32;
