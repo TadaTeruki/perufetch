@@ -2,19 +2,20 @@ use image::GenericImageView;
 
 const IMAGE_SOURCE: &str = "image/Peruki.png";
 
-const INFO: [&str; 15] = [
-    "\x1b[1;36mPeruki@future-university-hakodate\x1b[0m",
+const INFO: [&str; 16] = [
+    "\x1b[1;33mPeruki@future-university-hakodate\x1b[0m",
     "---------------------------------",
-    "\x1b[1;36mName\x1b[0m: Teruki TADA",
-    "\x1b[1;36mShell\x1b[0m: Japanese",
-    "\x1b[1;36mLocation\x1b[0m: Hakodate(Japan)",
-    "\x1b[1;36mAffiliation\x1b[0m: Future University Hakodate",
-    "\x1b[1;36mMascot\x1b[0m: Perukun",
-    "\x1b[1;36mTwitter\x1b[0m: @PerukiFUN",
-    "\x1b[1;36mGitHub\x1b[0m: TadaTeruki",
-    "\x1b[1;36mNative Language\x1b[0m: Go",
-    "\x1b[1;36mAvailable Languages\x1b[0m: C, C++, Rust",
-    "\x1b[1;36mFields\x1b[0m: Procedural Generation, Data Structures, Backend Web Development",
+    "\x1b[1;33mName\x1b[0m: Teruki TADA",
+    "\x1b[1;33mShell\x1b[0m: Japanese",
+    "\x1b[1;33mLocation\x1b[0m: Hakodate(Japan)",
+    "\x1b[1;33mAffiliation\x1b[0m: Future University Hakodate",
+    "\x1b[1;33mMascot\x1b[0m: Perukun",
+    "\x1b[1;33mTwitter\x1b[0m: @PerukiFUN",
+    "\x1b[1;33mGitHub\x1b[0m: TadaTeruki",
+    "\x1b[1;33mNative Language\x1b[0m: Go",
+    "\x1b[1;33mAvailable Languages\x1b[0m: C, C++, Rust",
+    "\x1b[1;33mFields\x1b[0m: Procedural Generation (CG)",
+    "\x1b[1;33m      \x1b[0m: Backend Web Development",
     "",
     "\x1b[30m███\x1b[31m███\x1b[32m███\x1b[33m███\x1b[34m███\x1b[35m███\x1b[36m███\x1b[37m███",
     "\x1b[90m███\x1b[91m███\x1b[92m███\x1b[93m███\x1b[94m███\x1b[95m███\x1b[96m███\x1b[97m███",
@@ -67,7 +68,7 @@ fn main() {
                 0.0
             };
             print!(
-                "\x1b[1;36m{}\x1b[0m",
+                "\x1b[1;32m{}\x1b[0m",
                 if c > 0.38 {
                     "#"
                 } else if c > 0.2 {
