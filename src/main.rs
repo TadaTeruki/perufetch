@@ -1,7 +1,7 @@
 use image::GenericImageView;
 
 const IMAGE_SOURCE: &str =
-    "https://github.com/TadaTeruki/perufetch/blob/main/image/Peruki.png?raw=true";
+    "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Fprofile%2FPeruki2.png?alt=media&token=dd376d91-4543-4a3e-bc4f-03a3f5895aca";
 
 const INFO: [&str; 16] = [
     "\x1b[1;33mPeruki@future-university-hakodate\x1b[0m",
