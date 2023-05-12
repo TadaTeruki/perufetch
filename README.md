@@ -2,7 +2,7 @@
 
 neofetch風プロフィールです。 Rust製。
 
-あなたの冷たいコンソールに入れて、いつでもぺるきを感じることができます。<br>
+あなたの冷えきったコンソールに入れて、いつでもできたてのぺるきを感じることができます。<br>
 公序良俗の範囲でご活用ください。
 
 ```
@@ -13,13 +13,13 @@ $ perufetch
    ##===####==###==#==.                  Shell: Japanese
    ##==####==##        ===               Location: Hakodate, Japan
     ########=             #=             Affiliation: Future University Hakodate
-     ####=            ##   .#.           Mascot: Perukun
-      #         ##    ##     #           Twitter: @PerukiFUN
-      #         ##         .#=           GitHub: TadaTeruki
-      =#               ====              Native Language: Go
-        =====.    ====                   Trained Languages: C, C++, Go, (Rust)
-       =#=#########.                     Fields: Procedural Generation (CG)
-     #######=######=                           : Backend Web Development
+     ####=            ##   .#.           Twitter: @PerukiFUN
+      #         ##    ##     #           GitHub: TadaTeruki
+      #         ##         .#=           Main Language: Go
+      =#               ====              Supported Languages: C, C++, Go, Rust, JS/TS
+        =====.    ====                   Fields: Landscape Evolution Model
+       =#=#########.                           : Backend Web Development
+     #######=######=                           : Community Management
         ===  #     =                     
                                          ████████████████████████
                                          ████████████████████████
