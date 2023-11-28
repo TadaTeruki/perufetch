@@ -1,30 +1,26 @@
 use image::GenericImageView;
 
-const IMAGE_SOURCE: &str =
-    "https://firebasestorage.googleapis.com/v0/b/portfolio-server-77440.appspot.com/o/images%2Fprofile%2FPeruki2.png?alt=media&token=dd376d91-4543-4a3e-bc4f-03a3f5895aca";
-
 const INFO: [&str; 16] = [
     "\x1b[1;33mPeruki@future-university-hakodate\x1b[0m",
     "---------------------------------",
     "\x1b[1;33mName\x1b[0m: Teruki TADA",
-    "\x1b[1;33mShell\x1b[0m: Japanese",
-    "\x1b[1;33mLocation\x1b[0m: Hakodate, Japan",
+    "\x1b[1;33mShell\x1b[0m: Japanese & English(unstable)",
+    "\x1b[1;33mLocale\x1b[0m: Hakodate City, Japan",
     "\x1b[1;33mAffiliation\x1b[0m: Future University Hakodate",
     "\x1b[1;33mTwitter\x1b[0m: @PerukiFUN",
     "\x1b[1;33mGitHub\x1b[0m: TadaTeruki",
-    "\x1b[1;33mMain Language\x1b[0m: Go",
-    "\x1b[1;33mSupported Languages\x1b[0m: C, C++, Go, Rust, JS/TS",
-    "\x1b[1;33mFields\x1b[0m: Landscape Evolution Model",
-    "\x1b[1;33m      \x1b[0m: Backend Web Development",
-    "\x1b[1;33m      \x1b[0m: Community Management",
+    "\x1b[1;33mMain Language\x1b[0m: Go, Rust",
+    "\x1b[1;33mOther Languages\x1b[0m: C, C++, JS/TS",
+    "\x1b[1;33mDev Fields\x1b[0m: Procedural Generation",
+    "\x1b[1;33m          \x1b[0m: GUI Application",
+    "\x1b[1;33mLast Update\x1b[0m: 2023/11/28",
     "",
     "\x1b[30m███\x1b[31m███\x1b[32m███\x1b[33m███\x1b[34m███\x1b[35m███\x1b[36m███\x1b[37m███",
     "\x1b[90m███\x1b[91m███\x1b[92m███\x1b[93m███\x1b[94m███\x1b[95m███\x1b[96m███\x1b[97m███",
 ];
 
 fn get_image() -> Result<image::DynamicImage, Box<dyn std::error::Error>> {
-    let img_bytes = reqwest::blocking::get(IMAGE_SOURCE)?.bytes()?;
-    let img = image::load_from_memory(&img_bytes)?;
+    let img = image::open("resources/peruki.png")?;
     Ok(img)
 }
 
