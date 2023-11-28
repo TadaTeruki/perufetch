@@ -7,20 +7,20 @@ neofetch風プロフィールです。 Rust製。
 
 ```
 $ perufetch
-                                         Peruki@future-university-hakodate
-   .                                     ---------------------------------
-  ##########==  =#                       Name: Teruki TADA
-   ##===####==###==#==.                  Shell: Japanese
-   ##==####==##        ===               Location: Hakodate, Japan
-    ########=             #=             Affiliation: Future University Hakodate
-     ####=            ##   .#.           Twitter: @PerukiFUN
-      #         ##    ##     #           GitHub: TadaTeruki
-      #         ##         .#=           Main Language: Go
-      =#               ====              Supported Languages: C, C++, Go, Rust, JS/TS
-        =====.    ====                   Fields: Landscape Evolution Model
-       =#=#########.                           : Backend Web Development
-     #######=######=                           : Community Management
-        ===  #     =                     
+                                       Peruki@future-university-hakodate
+ .                                     ---------------------------------
+##########==  =#                       Name: Teruki TADA
+ ##===####==###==#==.                  Shell: Japanese & English(unstable)
+ ##==####==##        ===               Locale: Hakodate City, Japan
+  ########=             #=             Affiliation: Future University Hakodate
+   ####=            ##   .#.           Twitter: @PerukiFUN
+    #         ##    ##     #           GitHub: TadaTeruki
+    #         ##         .#=           Main Language: Go, Rust
+    =#               ====              Other Languages: C, C++, JS/TS
+      =====.    ====                   Dev Fields: Procedural Generation
+    =#=#########.                                : GUI Application
+   #######=######=                     Last Update: 2023/11/28
+      ===  #     =
                                          ████████████████████████
                                          ████████████████████████
 ```
