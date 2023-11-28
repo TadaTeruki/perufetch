@@ -13,7 +13,7 @@ const INFO: [&str; 16] = [
     "\x1b[1;33mOther Languages\x1b[0m: C, C++, JS/TS",
     "\x1b[1;33mDev Fields\x1b[0m: Procedural Generation",
     "\x1b[1;33m          \x1b[0m: GUI Application",
-    "\x1b[1;33mLast Update\x1b[0m: 2023/11/28",
+    "\x1b[1;33mLast Update\x1b[0m: 28 Nov 2023",
     "",
     "\x1b[30m███\x1b[31m███\x1b[32m███\x1b[33m███\x1b[34m███\x1b[35m███\x1b[36m███\x1b[37m███",
     "\x1b[90m███\x1b[91m███\x1b[92m███\x1b[93m███\x1b[94m███\x1b[95m███\x1b[96m███\x1b[97m███",

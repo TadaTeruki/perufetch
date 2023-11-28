@@ -19,7 +19,7 @@ $ perufetch
     =#               ====              Other Languages: C, C++, JS/TS
       =====.    ====                   Dev Fields: Procedural Generation
     =#=#########.                                : GUI Application
-   #######=######=                     Last Update: 2023/11/28
+   #######=######=                     Last Update: 28 Nov 2023
       ===  #     =
                                          ████████████████████████
                                          ████████████████████████
